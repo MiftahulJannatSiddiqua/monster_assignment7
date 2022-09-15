@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="container">
+    <h1 class="text-center text-secondary">Questions & Answer</h1>
+    <div><h3>***Difference between Local storage and Session Storage?</h3>
+    <table style="border: 1px solid black; width: 700px; text-align: center;" colspan="15px">
+        <tr>
+            <th style="border: 1px solid black; color: cadetblue; background-color: black;">Local storage</th>
+            <th style="border: 1px solid black; color: cadetblue; background-color: black;">Session Storage</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">The storage capacity of local storage is 5MB/10MB</td>
+            <td style="border: 1px solid black;">The storage capacity of session storage is 5MB</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">There is no transfer of data to the server</td>
+            <td style="border: 1px solid black;">
+                There is no transfer of data to the server
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">As it is not session-based, it must be deleted via javascript or manually</td>
+            <td style="border: 1px solid black;">It’s session-based and works per window or tab. This means that data is stored only for the duration of a session, i.e., until the browser (or tab) is closed</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;"> 
+                The client  can only read local storage
+            </td>
+            <td style="border: 1px solid black;">
+                The client can only read local storage
+            </td>
+        </tr>
+    </table></div>
+    <br>
+    <div>
+        <h3>***How Javascript event loop works?</h3>
+        <p><strong>Javascript event loop:</strong> JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java.</p>
+    </div>
+    <br>
+    <div>
+        <h3>***Difference between Global Scope and Block Scope?</h3>
+        <p>
+            <strong>Global Scope :</strong> The variables defined outside of any function or curly brackets are known as global variables and have global scope. Global scope means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.
+            <br>
+            <strong>Block Scope :</strong> Block scope is also a sub-type of local scope. The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional statements, or something else. You are only allowed to refer to these variables from within the curly brackets {}.
+        </p>
+    </div>
+    <br>
+    <div>
+        <h3>
+            ***How Ways of getting undefined?
+        </h3>
+        <p>
+            <strong>Ways of getting undefined:</strong> 
+            <br>
+            <ul type="square">
+                <li>If null value defined in a variable.</li>
+                <li>If explicitly delete an index of an array.</li>
+                <li>If dont pass parameter of argument.</li>
+                <li>If variable declared as undefined.</li>
+                <li>If function doesnt return anything.</li>
+                <li>If array index element doest exist.</li>
+                <li>if return value not defined.</li>              
+            </ul>
+        </p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
